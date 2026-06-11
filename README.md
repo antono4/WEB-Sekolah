@@ -2,7 +2,7 @@
  Content management system (CMS) untuk Web sekolah <br>
  Untuk contoh runningnya bisa di lihat di sini <br>
  
-https://cms-websekolah2.000webhostapp.com/
+ https://cms-websekolah.000webhostapp.com/
  
 Admin <br>
 username	: roma <br>
@@ -39,6 +39,8 @@ password	: 1 <br>
    
 ###################  BUGS  #########################
 - Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /storage/ssd2/019/12549019/public_html/index.php:28) in /storage/ssd2/019/12549019/public_html/napigasi.php on line 23
+
+- Ketika sudah login trus klik fasilitas tombol login dan daftar masih ada (Benerin sendiri ya :v)
  
 ###################  Yang akan di bikin  #########################  
 - Encrypt Password HASH tersendiri

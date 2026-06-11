@@ -1,20 +1,32 @@
+# Keep all PHP and HTML files for Railway deployment
 
-# Created by https://www.gitignore.io/api/web,ph7cms,java-web,phpcodesniffer
+# Images
+images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
 
-### Web ###
-*.asp
-*.cer
-*.csr
-*.css
-*.js
-*.jsp
-*.rss
-*.xhtml
+# CSS
+css/
 
-# Keep HTML files
-!*.html
+# Fonts
+fonts/
 
-# Ignore PHP files
-*.php
+# JS
+js/
 
-# End of https://www.gitignore.io/api/web,ph7cms,java-web,phpcodesniffer
+# Environment files
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
