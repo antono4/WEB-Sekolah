@@ -6,13 +6,15 @@
 *.cer
 *.csr
 *.css
-*.htm
-*.html
 *.js
 *.jsp
-*.php
 *.rss
 *.xhtml
 
+# Keep HTML files
+!*.html
+
+# Ignore PHP files
+*.php
 
 # End of https://www.gitignore.io/api/web,ph7cms,java-web,phpcodesniffer

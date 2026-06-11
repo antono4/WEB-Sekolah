@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-<title>SMK TERPADUS</title>
+<title>SMK TERPADU</title>
 <!-- Meta tag Keywords -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -14,7 +14,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
 <link rel="stylesheet" href="css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
 <link rel="stylesheet" href="css/swipebox.css">
-<link rel="stylesheet" href="css/roma.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 <link rel="stylesheet" href="css/jquery-ui.css" />
 <!-- //css files -->
@@ -22,59 +21,80 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="//fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,latin-ext" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
 <!-- //online-fonts -->
+<style>
+img {
+	height : auto;
+	margin-top:20px;
+	margin-left:520px;
+}
+
+p {
+	margin-top : 20px;
+	color : #000000
+}
+
+h3 {
+	margin-top : 50px;
+}
+
+</style>
 </head>
 <body>
 
-<?php include ('napigasi.php'); ?>
-
-<div class="clearfix"> </div> 
-
-<!-- Slideshoww -->	
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="images/akun/akun.png"alt="...">
-      <div class="carousel-caption">
-	  <h1><b>Akuntansi</b> </h1>
-              <p>adalah pengukuran, penjabaran, atau pemberian kepastian mengenai informasi yang akan membantu manajer, investor, otoritas pajak dan pembuat keputusan lain untuk membuat alokasi sumber daya keputusan di dalam perusahaan, organisasi, dan lembaga pemerintah. Akuntansi adalah seni dalam mengukur, berkomunikasi dan menginterpretasikan aktivitas keuangan. Secara luas, akuntansi juga dikenal sebagai "bahasa bisnis".</p>
-      </div>
+<nav class="navbar navbar-default">
+    <div class="navbar-header navbar-left">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <h1><a class="navbar-brand" href="index.html"><i class="fa fa-leanpub" aria-hidden="true"></i> SMK TERPADU</a></h1>
     </div>
-    <div class="item">
-      <img src="images/akun/e akun.png" alt="...">
-      <div class="carousel-caption">
-	  <h1><b>E-accounting</b> </h1>
-              <p>adalah akuntansi berbasis cloud yang didesain untuk mendukung kegiatan pengelolaan bisnis atau usaha. E-accounting menyediakan berbagai fitur akuntansi yang sudah biasa digunakan oleh pelaku usaha dan juga disupport dengan teknologi terkini, menjadikan E-accounting mudah digunakan, aman dan handal serta dapat diakses kapanpun dan dimanapun.</p>
-      </div>
+    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+        <nav class="link-effect-2" id="link-effect-2">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html" class="effect-3">Beranda</a></li>
+                <li><a href="akutansi.html" class="effect-3">Akutansi</a></li>
+                <li><a href="rpl.html" class="effect-3">RPL</a></li>
+                <li><a href="otomotif.html" class="effect-3">Otomotif</a></li>
+                <li><a href="fasilitas.html" class="effect-3">Fasilitas</a></li>
+                <li><a href="profile_sekolah.html" class="effect-3">Profil</a></li>
+                <li><a href="contact.html" class="effect-3">Contact</a></li>
+            </ul>
+        </nav>
     </div>
-	<div class="item">
-      <img src="images/akun/kumpul.jpg" alt="...">
-      <div class="carousel-caption">
-	  <h1><b>Akuntansi</b> </h1>
-              <p>Informasi ini terakumulasi dalam catatan akuntansi dengan transaksi akuntansi, yang dicatat baik melalui transaksi bisnis standar seperti pelanggan faktur atau pemasok faktur, atau melalui transaksi lebih khusus, yang dikenal sebagai jurnal.</p>
-      </div>
-    </div>
-  </div>
+    <div class="clearfix"></div>
+</nav>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<!-- //Slideshoww -->
-  
+<!--- gambar -->
+				
+				<div class="jumbotron">
+					<div class="container">
+						<div class="gallery-item" >
+							<center><h2>Sejarah Sekolah</h2></center>
+								<img src="images/icon_gambar.ico" alt="sekolah">
+					<p align = "justify">SMK Negeri Terpadu Jakarta merupakan SMK Negeri pertama yang ada di Jakarta dan diresmikan pada tahun 1963. Dahulu alamatnya berada di Jl. KH Agus Salim no 77. Namun telah berganti menjadi Jl. KH Agus Salim no 181. Sampai tahun 2010, sekitar 45 angkatan alumni telah berhasil lulus dengan jumlah alumninya yang begitu besar. SMK Negeri Terpadu Jakarta telah mencetak alumni-alumni yang berhasil bersaing di universitas-universitas ternama .</p></align>
+				</div>
+				</div>
+				</div>
+				<div class="jumbotron">
+					<div class="container">
+						<center><h2>Visi dan Misi</h2></center>
+						<h3> VISI</h3>
+						<p>- Berwawasan global dalam IPTEK, kompetitif, aktual, berbudaya lingkungan berlandaskan iman  dan taqwa</p></align>
+						<h3> MISI</h3>
+						<p align = "justify">- Mengaktualisasikan sains, teknologi, sosial, seni dan budaya, dalam meningkatkan nilai tambah sehingga </p></align>
+						<p align = "justify">- menghasilkan siswa berkepribadian tangguh dan mandiri serta memiliki kemampuan berkomunikasi secara global.</p></align>
+						<p align = "justify">- Mengembangkan keunggulan ekstrakurikuler secara intensif dan berkelanjutan.</p></align>
+						<p align = "justify">- Mewujudkan sekolah peduli dan berbudaya lingkungan serta melakukan upaya perlindungan dan pengelolaan lingkungan hidup.</p></align>
+						<p align = "justify">- Menerapkan manajemen sekolah yang kooperatif dan terstandar</p></align>
+						<p align = "justify">- Menumbuhkan penghayatan dan pengamalan beribadah sebagai sumber kearifan dan nilai-nilai budi pekerti.</p></align>
+					</div>
+				</div>
+					
+<!--- //gambar -->
+
 <!-- footer -->
 
 <div class="w3layouts_copy_right">
