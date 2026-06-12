@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -14,6 +15,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
 <link rel="stylesheet" href="css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
 <link rel="stylesheet" href="css/swipebox.css">
+<link rel="stylesheet" href="css/roma.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 <link rel="stylesheet" href="css/jquery-ui.css" />
 <!-- //css files -->
@@ -21,43 +23,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href="//fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,latin-ext" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
 <!-- //online-fonts -->
-<style>
-.container5 {
-	max-width : 1200px;
-	margin : auto ;
-	background : #fff;
-	overflow : auto;
-}
-.gallery {
-margin : 5px;
-margin-top : 30px;
-margin-bottom : 30px;
-border : 1px solid #ccc;
-float : left;
-width : 390px;
-}
-.gallery img {
-width : 100%;
-height : 200px;
-}
-
-.desc h3 {
-padding : 15px;
-text-align : center ;
-}
-
-.judul h2 {
-margin-top : 20px;
-}
-.warna-teks {
-margin-left:5px;
-color : #000000;
-}
-
-</style>
 </head>
 <body>
-<!-- Navigation -->
+
 <nav class="navbar navbar-default">
     <div class="navbar-header navbar-left">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -75,7 +43,7 @@ color : #000000;
                 <li><a href="akutansi.html" class="effect-3">Akutansi</a></li>
                 <li><a href="rpl.html" class="effect-3">RPL</a></li>
                 <li><a href="otomotif.html" class="effect-3">Otomotif</a></li>
-                <li class="active"><a href="fasilitas.html" class="effect-3">Fasilitas</a></li>
+                <li><a href="fasilitas.html" class="effect-3">Fasilitas</a></li>
                 <li><a href="profile_sekolah.html" class="effect-3">Profil</a></li>
                 <li><a href="contact.html" class="effect-3">Contact</a></li>
             </ul>
@@ -84,54 +52,37 @@ color : #000000;
     <div class="clearfix"></div>
 </nav>
 
-<div class="clearfix"> </div>
-
-<div class="container5">
-<div class ="judul">
-<center><h2>FASILITAS</h2></center>
+<div class="clearfix"> </div> 
+<!-- contact -->
+<div id="mail" class="contact">
+	<div class="container">
+		<h3 class="w3l-title">Mail Us</h3>	
+			<div class="contact-grid1">
+				<div class="contact-top1">
+					<form action="Proses_Kirim.php" method="post">
+						<div class="col-md-6 col-xs-6 wthree_contact_left_grid">
+							<label>Name*</label>
+							<input type="text" name="Name" placeholder="Name" required="">
+							<label>E-mail*</label>
+							<input type="email" name="Email" placeholder="E-mail" required="">
+						</div>
+						<div class="col-md-6 col-xs-6 wthree_contact_left_grid">
+							<label>Phone Number*</label>
+							<input type="text" name="number" placeholder="Phone Number" required="">
+							<label>Subject*</label>
+							<input type="text" name="subject" placeholder="Subject" required="">
+						</div>
+						<div class="form-group">
+							<label>Message*</label>
+							<textarea placeholder name="Message" required></textarea>
+						</div>
+							<input type="submit" value="Send">
+					</form>
+				</div>
+			</div>
+	</div>
 </div>
-	<div class="gallery">
-		<img src="images/Lap1.jpg"  >
-		<div class ="desc">
-				<h3>Lapangan Futsal</h3>
-			</div>
-		</div>
-		<div class="gallery">
-		<img src="images/basket1.jpg" >
-		<div class ="desc">
-				<h3>Lapangan Basket</h3>
-			</div>
-		</div>
-		<div class="gallery">
-		<img src="images/perpustakaan.jpg">
-		<div class ="desc">
-				<h3>Perpustakaan</h3>
-			</div>
-		</div>
-		<div class="gallery">
-		<img src="images/komputer.jpg" >
-		<div class ="desc">
-				<h3>Lab Komputer</h3>
-			</div>
-		</div>
-		<div class="gallery">
-		<img src="images/bengkel.jpg" >
-		<div class ="desc">
-				<h3>Bengkel Otomotif</h3>
-			</div>
-		</div>
-		<div class="gallery">
-		<img src="images/kantin.jpg">
-		<div class ="desc">
-				<h3>Kantin Sekolah</h3>
-			</div>
-		</div>
-		
-</div>
-
-
-
-
+<div id="map"></div>
 <!-- footer -->
 
 <div class="w3layouts_copy_right">
