@@ -1,64 +1,79 @@
-# WEB-Sekolah
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-> **Created by Antono**
+<h1 align="center">SMK TERPADU - Sekolah Menengah Kejuruan 👋</h1>
 
- Content management system (CMS) untuk Web sekolah <br>
- Untuk contoh runningnya bisa di lihat di sini <br>
- 
-https://cms-websekolah2.000webhostapp.com/
- 
-Admin <br>
-username	: roma <br>
-password	: 1 
+<p align="center">
+  <strong>Mewujudkan generasi unggul berilmu pengetahuan, berkarakter, dan berdaya saing global dalam IPTEK berlandaskan iman dan taqwa.</strong>
+</p>
 
-Guru <br>
-username	: hendika <br>
-password	: 1 <br>
+<p align="center">
+  <a href="https://github.com/antono4/WEB-Sekolah"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/WEB-Sekolah-blue?logo=github"></a>
+  <a href="https://antono4.github.io/WEB-Sekolah/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-121-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-08-13 13:18:18 WIB-lightgrey">
+</p>
 
-Murid <br>
-username	: okky <br>
-password	: 1 <br>
+---
 
+## 📖 Tentang
 
- Fitur
- - Login
- - Level Akun
- - Contact US
- 
- Level Akses
- - Admin
-   + Akun Control
-   + Manajemen Murid
-   + Manajemen Guru
-   + Manajemen Nilai
-   + Email / Contact masuk  
-   + Manajemen Matapelajaran
-   
- - Guru
-   + Manajemen Nilai
-   
- - Murid
-   + Melihat Nilai
-   
-###################  BUGS  #########################
-- Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /storage/ssd2/019/12549019/public_html/index.php:28) in /storage/ssd2/019/12549019/public_html/napigasi.php on line 23
- 
-###################  Yang akan di bikin  #########################  
-- Encrypt Password HASH tersendiri
-- System log mencatat waktu, IP addres, dan MAC addres ketika login
-- Title WEB bisa di ganti di CMS Pannel Admin dan konsisten dengan semua page
-- Beranda bersifat dinamis
-- Page Profil
-- Page Daftar seperti web sekolah pada umumnya (standar)
-- Bikin Pannel Pengaturan WEB
-  + Manajemen Posting
-  + Manajemen Beranda
-  + Manajemen Sejarah Sekolah
-  + Manajemen Jurusan
-  + Manajemen Fasilitas
-  + Pengaturan Title, Keyword, Logo, dan warna
+Repository **`WEB-Sekolah`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/WEB-Sekolah/`](https://antono4.github.io/WEB-Sekolah/).
 
-Jika ada pertanyaan bisa langsung tanya ke https://www.facebook.com/romadebrian <br>
-Tolong berikan masukan dan saran di sini atau jika ada bugs tolong tulis di issues!!
+## 🗂️ Struktur Proyek
 
-Join our project https://github.com/users/romadebrian/projects/2
+```
+WEB-Sekolah/
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
+└── Admin/              # SMK TERPADU - Admin Panel  ->  https://antono4.github.io/WEB-Sekolah/Admin/
+└── Guru/              # Guru - SMK TERPADU  ->  https://antono4.github.io/WEB-Sekolah/Guru/
+└── Murid/              # Murid - SMK TERPADU  ->  https://antono4.github.io/WEB-Sekolah/Murid/
+```
+
+## 🌐 Sub-Proyek / Demo
+
+Situs ini juga memuat beberapa sub-proyek (masing-masing punya `index.html` tersendiri):
+
+| Folder | Demo Live | Keterangan |
+|--------|-----------|-----------|
+| [`Admin`](./Admin) | [https://antono4.github.io/WEB-Sekolah/Admin/](https://antono4.github.io/WEB-Sekolah/Admin/) | SMK TERPADU - Admin Panel |
+| [`Guru`](./Guru) | [https://antono4.github.io/WEB-Sekolah/Guru/](https://antono4.github.io/WEB-Sekolah/Guru/) | Guru - SMK TERPADU |
+| [`Murid`](./Murid) | [https://antono4.github.io/WEB-Sekolah/Murid/](https://antono4.github.io/WEB-Sekolah/Murid/) | Murid - SMK TERPADU |
+
+## 🛠️ Teknologi
+
+Berdasarkan isi repository, proyek ini menggunakan:
+
+- `HTML`
+- `CSS`
+- `JavaScript`
+
+> Total **121 file** terdeteksi di repository.
+
+## 🚀 Menjalankan Secara Lokal
+
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
+
+```bash
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
+
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
+```
+
+## 📬 Kontak
+
+- GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/WEB-Sekolah/](https://antono4.github.io/WEB-Sekolah/)
+
+## 📄 Lisensi
+
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
+
+---
+
+<sub>README ini di-generate otomatis pada **2026-08-13 13:18:18 WIB** oleh GitHub Actions .</sub>
