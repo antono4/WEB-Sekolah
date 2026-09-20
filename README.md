@@ -1,1 +1,26 @@
-Last updated: 2026-09-20 12:18:43 WIB
+# WEB-Sekolah
+
+
+
+## 📋 Overview
+
+This repository contains **126 files** and is built with the following technologies:
+
+HTML, JavaScript
+
+## 🚀 Quick Start
+
+## ✨ Features
+
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+HTML, JavaScript
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-09-20 12:20:10 WIB*
